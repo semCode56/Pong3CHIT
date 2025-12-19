@@ -1,21 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Godot\\Pong\\",
+  "WorkspaceRootPath": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|d:\\godot\\pong\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|c:\\users\\schoe\\documents\\github\\pong3chit\\pong\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|solutionrelative:scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|d:\\godot\\pong\\scripts\\pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|c:\\users\\schoe\\documents\\github\\pong3chit\\pong\\scripts\\mediumbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|solutionrelative:scripts\\mediumbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|c:\\users\\schoe\\documents\\github\\pong3chit\\pong\\scripts\\easybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|solutionrelative:scripts\\easybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|c:\\users\\schoe\\documents\\github\\pong3chit\\pong\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|c:\\users\\schoe\\documents\\github\\pong3chit\\pong\\scripts\\pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|solutionrelative:scripts\\pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|d:\\godot\\pong\\scripts\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|c:\\users\\schoe\\documents\\github\\pong3chit\\pong\\scripts\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|solutionrelative:scripts\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|d:\\godot\\pong\\scripts\\paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|c:\\users\\schoe\\documents\\github\\pong3chit\\pong\\scripts\\paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|solutionrelative:scripts\\paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,58 +38,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Wall.cs",
-              "DocumentMoniker": "D:\\Godot\\Pong\\Scripts\\Wall.cs",
-              "RelativeDocumentMoniker": "Scripts\\Wall.cs",
-              "ToolTip": "D:\\Godot\\Pong\\Scripts\\Wall.cs",
-              "RelativeToolTip": "Scripts\\Wall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Pong.cs",
+              "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Pong.cs",
+              "RelativeDocumentMoniker": "Scripts\\Pong.cs",
+              "ToolTip": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Pong.cs",
+              "RelativeToolTip": "Scripts\\Pong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:49:51.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T11:43:39.8Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Pong.cs",
-              "DocumentMoniker": "D:\\Godot\\Pong\\Scripts\\Pong.cs",
-              "RelativeDocumentMoniker": "Scripts\\Pong.cs",
-              "ToolTip": "D:\\Godot\\Pong\\Scripts\\Pong.cs",
-              "RelativeToolTip": "Scripts\\Pong.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MediumButton.cs",
+              "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\MediumButton.cs",
+              "RelativeDocumentMoniker": "Scripts\\MediumButton.cs",
+              "ToolTip": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\MediumButton.cs",
+              "RelativeToolTip": "Scripts\\MediumButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T11:43:39.8Z",
+              "WhenOpened": "2025-12-19T22:42:29.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ball.cs",
-              "DocumentMoniker": "D:\\Godot\\Pong\\Scripts\\Ball.cs",
-              "RelativeDocumentMoniker": "Scripts\\Ball.cs",
-              "ToolTip": "D:\\Godot\\Pong\\Scripts\\Ball.cs",
-              "RelativeToolTip": "Scripts\\Ball.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFsAAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EasyButton.cs",
+              "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\EasyButton.cs",
+              "RelativeDocumentMoniker": "Scripts\\EasyButton.cs",
+              "ToolTip": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\EasyButton.cs",
+              "RelativeToolTip": "Scripts\\EasyButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T11:05:01.121Z",
+              "WhenOpened": "2025-12-19T22:24:49.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\GameManager.cs",
+              "RelativeDocumentMoniker": "GameManager.cs",
+              "ToolTip": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\GameManager.cs",
+              "RelativeToolTip": "GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:11:48.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Wall.cs",
+              "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Wall.cs",
+              "RelativeDocumentMoniker": "Scripts\\Wall.cs",
+              "ToolTip": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Wall.cs",
+              "RelativeToolTip": "Scripts\\Wall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:49:51.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Paddle.cs",
-              "DocumentMoniker": "D:\\Godot\\Pong\\Scripts\\Paddle.cs",
+              "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Paddle.cs",
               "RelativeDocumentMoniker": "Scripts\\Paddle.cs",
-              "ToolTip": "D:\\Godot\\Pong\\Scripts\\Paddle.cs",
+              "ToolTip": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Paddle.cs",
               "RelativeToolTip": "Scripts\\Paddle.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T10:57:40.767Z",
+              "WhenOpened": "2025-12-09T10:57:40.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Ball.cs",
+              "RelativeDocumentMoniker": "Scripts\\Ball.cs",
+              "ToolTip": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Ball.cs",
+              "RelativeToolTip": "Scripts\\Ball.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:05:01.121Z",
               "EditorCaption": ""
             }
           ]

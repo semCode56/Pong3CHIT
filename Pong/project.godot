@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Pong"
-run/main_scene="uid://kkek03sngr3f"
+run/main_scene="uid://bcl30b1wwdlbv"
 config/features=PackedStringArray("4.5", "C#", "Mobile")
 
 [autoload]

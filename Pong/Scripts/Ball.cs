@@ -9,7 +9,10 @@ public partial class Ball : Area2D
     const int INITIAL_BALL_SPEED = 100;
 
     // Aktuelle Geschwindigkeit des Balls (Pixel pro Sekunde)
-    float ballSpeed = INITIAL_BALL_SPEED;
+    public float ballSpeed = INITIAL_BALL_SPEED;
+    // Speichert initalBallSpeed um die Diff nach reset nicht zu verlieren
+    public float initialBallSpeed = INITIAL_BALL_SPEED;
+
 
     // Größe des Viewports (Bildschirmbereich), in dem sich der Ball bewegt
     Vector2 screenSize;
@@ -99,7 +102,7 @@ public partial class Ball : Area2D
         Vector2 ballPos = screenSize * 0.5f;
 
         // Geschwindigkeit auf Anfangswert zurücksetzen
-        ballSpeed = INITIAL_BALL_SPEED;
+        ballSpeed = initialBallSpeed;
 
         // Startrichtung: alte horizontale Richtung mit leicht zufälliger vertikaler Komponente (Y)
         direction = new Vector2(direction.X, random.NextSingle() * 0.15f);

@@ -1,0 +1,62 @@
+[gd_scene load_steps=6 format=3 uid="uid://bcl30b1wwdlbv"]
+
+[ext_resource type="Texture2D" uid="uid://bwqsmih3j3xff" path="res://Assets/background.png" id="1_yt815"]
+[ext_resource type="Texture2D" uid="uid://bcubnhtfa8f8r" path="res://Assets/BlueButton.png" id="2_h8rej"]
+[ext_resource type="Script" uid="uid://edjtt7k8mpfl" path="res://Scripts/EasyButton.cs" id="3_h8rej"]
+[ext_resource type="Script" uid="uid://bvmq0msu6t0qn" path="res://Scripts/MediumButton.cs" id="4_gunar"]
+[ext_resource type="Script" uid="uid://don0pra8x7lub" path="res://Scripts/HardButton.cs" id="4_nvsmb"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(320, 199)
+scale = Vector2(0.49931642, 0.55095494)
+texture = ExtResource("1_yt815")
+
+[node name="EasyButton" type="Button" parent="Background"]
+offset_left = -113.02961
+offset_top = -84.68251
+offset_right = 111.27703
+offset_bottom = 7.884033
+text = "Easy
+"
+icon = ExtResource("2_h8rej")
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("3_h8rej")
+
+[node name="LabelGameName" type="Label" parent="Background"]
+offset_left = -80.98579
+offset_top = -215.36472
+offset_right = 69.01421
+offset_bottom = -129.36472
+theme_override_font_sizes/font_size = 62
+text = "Pong"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HardButton" type="Button" parent="Background"]
+offset_left = -113.0296
+offset_top = 89.560425
+offset_right = 111.27704
+offset_bottom = 182.12697
+text = "Hard"
+icon = ExtResource("2_h8rej")
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("4_nvsmb")
+
+[node name="MediumButton" type="Button" parent="Background"]
+offset_left = -113.0296
+offset_top = 2.4389648
+offset_right = 111.27704
+offset_bottom = 95.00551
+text = "Medium"
+icon = ExtResource("2_h8rej")
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("4_gunar")
+
+[connection signal="pressed" from="Background/EasyButton" to="Background/EasyButton" method="OnPressed"]
+[connection signal="pressed" from="Background/HardButton" to="Background/HardButton" method="OnPressed"]
+[connection signal="pressed" from="Background/MediumButton" to="Background/MediumButton" method="OnPressed"]
