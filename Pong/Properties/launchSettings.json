@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Pong": {
+      "commandName": "Project"
+    },
+    "PongDebug": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\raine\\Documents\\HTLWienWest\\GoDot2DKurs\\Godot_v4.5.1-stable_mono_win64\\Godot_v4.5.1-stable_mono_win64_console.exe",
+      "commandLineArgs": "--path . --verbose",
+      "workingDirectory": ".",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,0 +1,96 @@
+[gd_scene load_steps=9 format=3 uid="uid://kkek03sngr3f"]
+
+[ext_resource type="Script" uid="uid://dxefyo45yvw8e" path="res://Scripts/Pong.cs" id="1_o8plw"]
+[ext_resource type="Texture2D" uid="uid://bwqsmih3j3xff" path="res://Assets/background.png" id="2_5ig22"]
+[ext_resource type="PackedScene" uid="uid://dofqa2spsb32l" path="res://Scenes/Paddle.tscn" id="2_cghwj"]
+[ext_resource type="PackedScene" uid="uid://e6132y6bkyk4" path="res://Scenes/Ball.tscn" id="2_o8plw"]
+[ext_resource type="PackedScene" uid="uid://coy0kjjb0q36l" path="res://Scenes/Wall.tscn" id="2_tbcxd"]
+[ext_resource type="Texture2D" uid="uid://gwuo03lwo27c" path="res://Assets/left_pallete.png" id="3_o8plw"]
+[ext_resource type="Texture2D" uid="uid://c7pufsv8ft8y" path="res://Assets/separator.png" id="5_sfkpr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5ig22"]
+size = Vector2(9.499992, 423.25)
+
+[node name="Game" type="Node2D" node_paths=PackedStringArray("scorePlayer1", "scorePlayer2")]
+script = ExtResource("1_o8plw")
+scorePlayer1 = NodePath("Score1")
+scorePlayer2 = NodePath("Score2")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(320, 200.00002)
+scale = Vector2(0.5, 0.55555564)
+texture = ExtResource("2_5ig22")
+
+[node name="TopWall" parent="." instance=ExtResource("2_tbcxd")]
+
+[node name="BottomWall" parent="." instance=ExtResource("2_tbcxd")]
+position = Vector2(0, 410)
+
+[node name="RightWall" parent="." instance=ExtResource("2_tbcxd")]
+position = Vector2(640, 0)
+walltype = 1
+
+[node name="CollisionShape2D" parent="RightWall" index="0"]
+position = Vector2(5.75, 199.625)
+shape = SubResource("RectangleShape2D_5ig22")
+
+[node name="LeftWall" parent="." instance=ExtResource("2_tbcxd")]
+position = Vector2(-98.000015, 82.899994)
+walltype = 1
+
+[node name="CollisionShape2D" parent="LeftWall" index="0"]
+position = Vector2(92.50001, 116.600006)
+shape = SubResource("RectangleShape2D_5ig22")
+
+[node name="Ball" parent="." instance=ExtResource("2_o8plw")]
+position = Vector2(320, 200)
+
+[node name="RightPaddle" parent="." node_paths=PackedStringArray("ball") instance=ExtResource("2_cghwj")]
+position = Vector2(577, 200)
+controlUp = 2
+controlDown = 3
+ball = NodePath("../Ball")
+
+[node name="LeftPaddle" parent="." node_paths=PackedStringArray("ball") instance=ExtResource("2_cghwj")]
+position = Vector2(67, 200)
+controlDown = 1
+ball = NodePath("../Ball")
+
+[node name="Sprite2D" parent="LeftPaddle" index="1"]
+texture = ExtResource("3_o8plw")
+
+[node name="Separator" type="Sprite2D" parent="."]
+position = Vector2(320, 200)
+texture = ExtResource("5_sfkpr")
+
+[node name="Score1" type="Label" parent="."]
+z_index = 1
+offset_left = 146.0
+offset_top = 24.0
+offset_right = 196.0
+offset_bottom = 79.0
+theme_override_font_sizes/font_size = 40
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Score2" type="Label" parent="."]
+z_index = 1
+offset_left = 459.0
+offset_top = 25.0
+offset_right = 509.0
+offset_bottom = 80.0
+theme_override_font_sizes/font_size = 40
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="area_entered" from="RightWall" to="RightWall" method="OnWallArea2DEntered"]
+[connection signal="area_entered" from="LeftWall" to="LeftWall" method="OnWallArea2DEntered"]
+[connection signal="area_entered" from="Ball" to="Ball" method="Bounce"]
+[connection signal="area_entered" from="RightPaddle" to="RightPaddle" method="OnPaddleAreaEntered"]
+[connection signal="area_entered" from="LeftPaddle" to="LeftPaddle" method="OnPaddleAreaEntered"]
+
+[editable path="RightWall"]
+[editable path="LeftWall"]
+[editable path="LeftPaddle"]
