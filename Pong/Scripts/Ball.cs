@@ -246,6 +246,7 @@ public partial class Ball : Area2D
 	{
 		if (_sprite != null)
 		{
+			
 			if(diff == 1)
 				_sprite.Modulate = Colors.Green;
 			else if(diff == 2){

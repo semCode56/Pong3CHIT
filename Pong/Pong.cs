@@ -12,6 +12,7 @@ public partial class Pong : Node2D
 	[Export]
 	Label speedText;
 
+	
 	private PackedScene ballObject = GD.Load<PackedScene>("res://Scenes/Ball.tscn");
 
 	// Called when the node enters the scene tree for the first time.

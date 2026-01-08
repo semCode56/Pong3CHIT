@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://bcl30b1wwdlbv"]
+[gd_scene load_steps=7 format=3 uid="uid://bcl30b1wwdlbv"]
 
 [ext_resource type="Texture2D" uid="uid://bwqsmih3j3xff" path="res://Assets/background.png" id="1_yt815"]
 [ext_resource type="Texture2D" uid="uid://bcubnhtfa8f8r" path="res://Assets/BlueButton.png" id="2_h8rej"]
 [ext_resource type="Script" uid="uid://edjtt7k8mpfl" path="res://Scripts/EasyButton.cs" id="3_h8rej"]
 [ext_resource type="Script" uid="uid://bvmq0msu6t0qn" path="res://Scripts/MediumButton.cs" id="4_gunar"]
 [ext_resource type="Script" uid="uid://cqml2byvnur6o" path="res://Scripts/HardButton.cs" id="4_nvsmb"]
+[ext_resource type="Script" uid="uid://cj53j81x7j8k1" path="res://Scenes/PowerOnOff.cs" id="6_k3e1f"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -35,6 +36,16 @@ text = "Pong"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Info" type="Label" parent="Background"]
+offset_left = 134.18346
+offset_top = 181.50302
+offset_right = 260.35596
+offset_bottom = 267.503
+theme_override_font_sizes/font_size = 25
+text = "PowerUp:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="HardButton" type="Button" parent="Background"]
 offset_left = -113.0296
 offset_top = 89.560425
@@ -57,6 +68,19 @@ icon_alignment = 1
 expand_icon = true
 script = ExtResource("4_gunar")
 
+[node name="PowerOn_Off" type="Button" parent="Background" node_paths=PackedStringArray("PowerToggel")]
+offset_left = -110.15059
+offset_top = 174.24294
+offset_right = 114.15605
+offset_bottom = 266.80948
+text = "PowerOn/Off"
+icon = ExtResource("2_h8rej")
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("6_k3e1f")
+PowerToggel = NodePath("../Info")
+
 [connection signal="pressed" from="Background/EasyButton" to="Background/EasyButton" method="OnPressed"]
 [connection signal="pressed" from="Background/HardButton" to="Background/HardButton" method="OnPressed"]
 [connection signal="pressed" from="Background/MediumButton" to="Background/MediumButton" method="OnPressed"]
+[connection signal="pressed" from="Background/PowerOn_Off" to="Background/PowerOn_Off" method="OnPressed"]

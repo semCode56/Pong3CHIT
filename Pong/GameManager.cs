@@ -7,7 +7,7 @@ public static partial class GameManager
 {
 	private static float ballSpeed = 100f;
 	private static int maxBallSpeed = 1000;
-
+	public static bool PowerUpsActive { get; set; } = true;
 	public static float BallSpeed 
 	{ 
 		get { return ballSpeed; }
