@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|c:\\users\\schoe\\documents\\github\\pong3chit\\pong\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|solutionrelative:scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|c:\\users\\schoe\\documents\\github\\pong3chit\\pong\\scripts\\hardbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|solutionrelative:scripts\\hardbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|c:\\users\\schoe\\documents\\github\\pong3chit\\pong\\scripts\\mediumbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|solutionrelative:scripts\\mediumbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|c:\\users\\schoe\\documents\\github\\pong3chit\\pong\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|solutionrelative:scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6173199A-AC47-487E-A1D5-57F26BAFFEF8}|Pong.csproj|c:\\users\\schoe\\documents\\github\\pong3chit\\pong\\scripts\\easybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Pong.cs",
               "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Pong.cs",
               "RelativeDocumentMoniker": "Scripts\\Pong.cs",
@@ -55,20 +59,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HardButton.cs",
+              "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\HardButton.cs",
+              "RelativeDocumentMoniker": "Scripts\\HardButton.cs",
+              "ToolTip": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\HardButton.cs",
+              "RelativeToolTip": "Scripts\\HardButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T23:05:42.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MediumButton.cs",
               "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\MediumButton.cs",
               "RelativeDocumentMoniker": "Scripts\\MediumButton.cs",
               "ToolTip": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\MediumButton.cs",
               "RelativeToolTip": "Scripts\\MediumButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T22:42:29.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EasyButton.cs",
               "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\EasyButton.cs",
               "RelativeDocumentMoniker": "Scripts\\EasyButton.cs",
@@ -81,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\GameManager.cs",
               "RelativeDocumentMoniker": "GameManager.cs",
@@ -93,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Wall.cs",
               "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Wall.cs",
               "RelativeDocumentMoniker": "Scripts\\Wall.cs",
@@ -105,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Paddle.cs",
               "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Paddle.cs",
               "RelativeDocumentMoniker": "Scripts\\Paddle.cs",
@@ -117,13 +134,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Ball.cs",
               "DocumentMoniker": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Ball.cs",
               "RelativeDocumentMoniker": "Scripts\\Ball.cs",
               "ToolTip": "C:\\Users\\schoe\\Documents\\GitHub\\Pong3CHIT\\Pong\\Scripts\\Ball.cs",
               "RelativeToolTip": "Scripts\\Ball.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T11:05:01.121Z",
               "EditorCaption": ""

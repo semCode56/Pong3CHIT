@@ -15,7 +15,8 @@ public partial class EasyButton : Godot.Button
 
 	public void OnPressed()
 	{
-        Console.WriteLine("Pressed");
-        GetTree().ChangeSceneToFile("res://Scenes/Pong.tscn");
-    }
+		Console.WriteLine("Pressed");
+		GameManager.BallSpeed = 50;
+		GetTree().ChangeSceneToFile("res://Scenes/Pong.tscn");
+	}
 }

@@ -1,12 +1,20 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong", "Pong.csproj", "{6173199A-AC47-487E-A1D5-57F26BAFFEF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		editConf.editorconfig = editConf.editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-	Debug|Any CPU = Debug|Any CPU
-	ExportDebug|Any CPU = ExportDebug|Any CPU
-	ExportRelease|Any CPU = ExportRelease|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6173199A-AC47-487E-A1D5-57F26BAFFEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -15,5 +23,11 @@ Global
 		{6173199A-AC47-487E-A1D5-57F26BAFFEF8}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
 		{6173199A-AC47-487E-A1D5-57F26BAFFEF8}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
 		{6173199A-AC47-487E-A1D5-57F26BAFFEF8}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02072236-07E0-4CBF-BB94-552B4D256EE1}
 	EndGlobalSection
 EndGlobal

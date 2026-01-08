@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bcubnhtfa8f8r" path="res://Assets/BlueButton.png" id="2_h8rej"]
 [ext_resource type="Script" uid="uid://edjtt7k8mpfl" path="res://Scripts/EasyButton.cs" id="3_h8rej"]
 [ext_resource type="Script" uid="uid://bvmq0msu6t0qn" path="res://Scripts/MediumButton.cs" id="4_gunar"]
-[ext_resource type="Script" uid="uid://don0pra8x7lub" path="res://Scripts/HardButton.cs" id="4_nvsmb"]
+[ext_resource type="Script" uid="uid://cqml2byvnur6o" path="res://Scripts/HardButton.cs" id="4_nvsmb"]
 
 [node name="Node2D" type="Node2D"]
 

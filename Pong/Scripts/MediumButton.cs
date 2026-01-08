@@ -12,13 +12,12 @@ public partial class MediumButton : Button
 	public override void _Process(double delta)
 	{
 	}
-    private void OnPressed()
-    {
-        var scene = GD.Load<PackedScene>("res://Scenes/Pong.tscn");
-        var game = scene.Instantiate();
-        var ball = game.GetNode<Ball>("Ball");
-        ball.initialBallSpeed = 200;
-        GetTree().Root.AddChild(game);
-        QueueFree();
-    }
+	private void OnPressed()
+	{
+		var scene = GD.Load<PackedScene>("res://Scenes/Pong.tscn");
+		var game = scene.Instantiate();
+		GameManager.BallSpeed = 100;
+		GetTree().Root.AddChild(game);
+		QueueFree();
+	}
 }

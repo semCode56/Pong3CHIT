@@ -15,11 +15,10 @@ public partial class HardButton : Button
 
 	public void OnPressed()
 	{
-        var scene = GD.Load<PackedScene>("res://Scenes/Pong.tscn");
-        var game = scene.Instantiate();
-        var ball = game.GetNode<Ball>("Ball");
-        ball.initialBallSpeed = 300;
-        GetTree().Root.AddChild(game);
-        QueueFree();
-    }
+		var scene = GD.Load<PackedScene>("res://Scenes/Pong.tscn");
+		var game = scene.Instantiate();
+		GameManager.BallSpeed = 300;
+		GetTree().Root.AddChild(game);
+		QueueFree();
+	}
 }

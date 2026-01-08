@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://kkek03sngr3f"]
 
-[ext_resource type="Script" uid="uid://dxefyo45yvw8e" path="res://Scripts/Pong.cs" id="1_o8plw"]
+[ext_resource type="Script" uid="uid://ddij2yji8l7fm" path="res://Pong.cs" id="1_5ig22"]
 [ext_resource type="Texture2D" uid="uid://bwqsmih3j3xff" path="res://Assets/background.png" id="2_5ig22"]
 [ext_resource type="PackedScene" uid="uid://dofqa2spsb32l" path="res://Scenes/Paddle.tscn" id="2_cghwj"]
 [ext_resource type="PackedScene" uid="uid://e6132y6bkyk4" path="res://Scenes/Ball.tscn" id="2_o8plw"]
@@ -11,10 +11,11 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5ig22"]
 size = Vector2(9.499992, 423.25)
 
-[node name="Game" type="Node2D" node_paths=PackedStringArray("scorePlayer1", "scorePlayer2")]
-script = ExtResource("1_o8plw")
+[node name="Game" type="Node2D" node_paths=PackedStringArray("scorePlayer1", "scorePlayer2", "speedText")]
+script = ExtResource("1_5ig22")
 scorePlayer1 = NodePath("Score1")
 scorePlayer2 = NodePath("Score2")
+speedText = NodePath("infoText")
 
 [node name="Background" type="Sprite2D" parent="."]
 position = Vector2(320, 200.00002)
@@ -71,6 +72,28 @@ offset_right = 196.0
 offset_bottom = 79.0
 theme_override_font_sizes/font_size = 40
 text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="infoText" type="Label" parent="."]
+z_index = 1
+offset_left = 334.0
+offset_top = 360.0
+offset_right = 384.0
+offset_bottom = 400.0
+theme_override_font_sizes/font_size = 19
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="infoText2" type="Label" parent="."]
+z_index = 1
+offset_left = 227.0
+offset_top = 360.0
+offset_right = 320.0
+offset_bottom = 400.0
+theme_override_font_sizes/font_size = 19
+text = "Speed:"
 horizontal_alignment = 1
 vertical_alignment = 1
 

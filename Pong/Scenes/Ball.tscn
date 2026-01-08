@@ -6,8 +6,9 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_3dh43"]
 radius = 5.0
 
-[node name="Ball" type="Area2D"]
+[node name="Ball" type="Area2D" node_paths=PackedStringArray("_sprite")]
 script = ExtResource("1_eb1ap")
+_sprite = NodePath("Sprite2D")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_3dh43")
